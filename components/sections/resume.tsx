@@ -17,7 +17,7 @@ const timeline = [
   {
     icon: Briefcase,
     type: "work",
-    title: "Backend Developer (Projects & Freelance)",
+    title: "Backend Developer (Projects)",
     org: "Independent",
     period: "2022 – Present",
     detail:
@@ -41,7 +41,7 @@ export default function Resume() {
             />
             <div className="flex flex-wrap gap-3">
               <a
-                href="/cv.pdf"
+                href="/Rifah_Sajida_Deya_js.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 h-11 px-6 rounded-lg bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] text-sm font-medium hover:bg-[hsl(var(--primary)/0.9)] transition-colors"
@@ -49,7 +49,7 @@ export default function Resume() {
                 <Eye size={15} /> View CV
               </a>
               <a
-                href="/cv.pdf"
+                href="/Rifah_Sajida_Deya_js.pdf"
                 download
                 className="inline-flex items-center gap-2 h-11 px-6 rounded-lg border border-[hsl(var(--border))] text-[hsl(var(--foreground))] text-sm font-medium hover:bg-[hsl(var(--muted))] transition-colors"
               >

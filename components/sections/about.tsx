@@ -47,7 +47,7 @@ export default function About() {
               graceful failures.
             </p>
             <p>
-              I care about code that&apos;s easy to reason about — clean
+              I care about code that&apos;s easy to reason about - clean
               separation of concerns, explicit over implicit, and systems a
               future engineer can maintain without archaeology.
             </p>

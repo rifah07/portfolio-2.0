@@ -27,14 +27,14 @@ const socials = [
   {
     icon: LinkedInIcon,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/rifah-sajida-deya",
+    href: "https://www.linkedin.com/in/rifah-sajida-deya-1011/",
     handle: "rifah-sajida-deya",
   },
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:rifah.dev@gmail.com",
-    handle: "rifah.dev@gmail.com",
+    href: "mailto:rifahsajida7@gmail.com",
+    handle: "rifahsajida7@gmail.com",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function Contact() {
       const json = await res.json();
       if (!res.ok) throw new Error(json.error || "Something went wrong");
       toast.success("Message sent!", {
-        description: "I'll get back to you soon.",
+        description: "I'll get back to you soon, In-Sha-Allah.",
       });
       reset();
     } catch (err) {
