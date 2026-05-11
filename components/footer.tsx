@@ -8,7 +8,7 @@ const socials = [
     href: "https://www.linkedin.com/in/rifah-sajida-deya-1011/",
     label: "LinkedIn",
   },
-  { icon: Mail, href: "mailto:rifahsajida7@gmail.com", label: "Email" },
+  { icon: Mail, href: "mailto:rifahsajida7@gmail.com", label: "E-mail" },
 ];
 
 export default function Footer() {
